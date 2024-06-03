@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0a66c2;
+  color: rgb(255, 255, 255);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header > h1 {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 25px;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  gap: 50px;
+}
+main > div {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+main > div > h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 3px;
+  padding: 5px;
+}
+main > div > span {
+  font-size: 14px;
+}
+
+.box-green {
+  border: 5px green solid;
+}
+.box-red {
+  border: 5px red solid;
+}
+.box-blue {
+  border: 5px blue solid;
+}
+.box-yellow {
+  border: 5px yellow solid;
+}
+.box-purple {
+  border: 5px purple solid;
+}
+.box-orange {
+  border: 5px orange solid;
+}
+.box-pink {
+  border: 5px pink solid;
+}
+.box-lightblue {
+  border: 5px lightblue solid;
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: dodgerblue;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  main {
+    width: 100%;
+  }
+}
