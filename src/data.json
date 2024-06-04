@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Agent de sécurité",
+        "contractType": "CDI",
+        "country": "Japon",
+        "city": "Tokyo",
+        "id": 1,
+        "className":"box-green" 
+    },
+    {
+        "title": "Dev full stack React",
+        "contractType": "CDI",
+        "country": "Mongolie",
+        "city": "Ulaanbaatar",
+        "id": 2,
+        "className":"box-red"
+    },
+    {
+        "title": "Chef de projet",
+        "contractType": "CDD",
+        "country": "France",
+        "city": "Paris",
+        "id": 3,
+        "className":"box-blue"
+    },
+    {
+        "title": "Ingénieur logiciel",
+        "contractType": "CDI",
+        "country": "États-Unis",
+        "city": "San Francisco",
+        "id": 4,
+        "className":"box-yellow"
+    },
+    {
+        "title": "Consultant en management",
+        "contractType": "Freelance",
+        "country": "Canada",
+        "city": "Toronto",
+        "id": 5,
+        "className":"box-purple"
+    },
+    {
+        "title": "Responsable marketing",
+        "contractType": "CDI",
+        "country": "Royaume-Uni",
+        "city": "Londres",
+        "id": 6,
+        "className":"box-orange"
+    },
+    {
+        "title": "Data Scientist",
+        "contractType": "CDI",
+        "country": "Allemagne",
+        "city": "Berlin",
+        "id": 7,
+        "className":"box-pink"
+    },
+    {
+        "title": "Analyste financier",
+        "contractType": "CDD",
+        "country": "Suisse",
+        "city": "Genève",
+        "id": 8,
+        "className":"box-lightblue"
+    },
+    {
+        "title": "Designer graphique",
+        "contractType": "Freelance",
+        "country": "Australie",
+        "city": "Sydney",
+        "id": 9,
+        "className":"box-green"
+    }
+]

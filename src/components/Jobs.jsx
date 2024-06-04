@@ -1,10 +1,15 @@
 
 import Job from "./Job"
+import data from "../data.json"
 
 const Jobs = () => {
     return (
         <main>
-        <Job  title="Full Stack React Dev" className="box-green"  contractType="CDI" country="Japon" city="Tokio"/>
+{console.log(data)}
+        {data.map(job => <Job key={job.id} {...job} />)}
+        
+
+        {/* <Job  title="Full Stack React Dev" className="box-green"  contractType="CDI" country="Japon" city="Tokio"/>
         <Job title="Software Developer at Tech Innovators Inc." className="box-red"  contractType="STAGE" country="Brazil" city="Tokio"/>
         <Job title="Full Stack React Dev" className="box-blue"  contractType="CDD" country="South Africa" city="Pretoria"/>
         <Job title="Data Scientist at Innovate Analytics" className="box-yellow"  contractType="CDI" country="Canada" city="Ontario"/>
@@ -14,7 +19,7 @@ const Jobs = () => {
 
         <Job title="Content Writer at Wordsmiths Unlimited" className="box-green"  contractType="CDI" country="Japon" city="Tokio"/>
 
-        <Job title="Graphic Designer at Visual Creations Studio" className="box-lightblue"  contractType="CDI" country="Japon" city="Tokio"/>
+        <Job title="Graphic Designer at Visual Creations Studio" className="box-lightblue"  contractType="CDI" country="Japon" city="Tokio"/> */}
        
         </main>
     )
