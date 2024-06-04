@@ -57,22 +57,22 @@ main > div > span {
 }
 
 .box-green {
-  border: 5px green solid;
+  border: 5px rgb(95, 234, 95) solid;
 }
 .box-red {
-  border: 5px red solid;
+  border: 5px rgb(232, 74, 74) solid;
 }
 .box-blue {
-  border: 5px blue solid;
+  border: 5px rgb(74, 74, 255) solid;
 }
 .box-yellow {
   border: 5px yellow solid;
 }
 .box-purple {
-  border: 5px purple solid;
+  border: 5px rgb(216, 9, 216) solid;
 }
 .box-orange {
-  border: 5px orange solid;
+  border: 5px rgb(248, 176, 41) solid;
 }
 .box-pink {
   border: 5px pink solid;
